@@ -1,14 +1,14 @@
 <template>
- <h1> hello new project</h1>
+  <MyHero />
+
 </template>
 
 <script>
-
-
+ import MyHero from "./components/Hero.vue"
 export default {
   name: 'App',
   components: {
-    // HelloWorld
+    MyHero
   }
 }
 </script>
