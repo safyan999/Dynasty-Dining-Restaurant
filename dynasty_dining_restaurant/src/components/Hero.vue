@@ -2,7 +2,7 @@
     <div class="heroStyle container">
         <MyNavbar/> 
         <div class="row heroSection1">
-            <div class="col-5">
+            <div class="col-5 sectionStyle animation">
                 <h1> Enjoy Our Delicious Meal</h1>
                 <p>
                     Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
@@ -40,10 +40,10 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #666565;
+    
     background-color: #F1F8FF;
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+    
 }
 
 .heroStyle {
@@ -63,7 +63,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0.5, 0, 1, 0.5); 
+    
     z-index: 1; 
 } 
 
@@ -85,5 +85,12 @@ body {
     width: fit-content;
     position: relative;
    
+}
+.sectionStyle{
+    transition: .5s;
+
+    /* animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: slideInLeft; */
 }
 </style>
