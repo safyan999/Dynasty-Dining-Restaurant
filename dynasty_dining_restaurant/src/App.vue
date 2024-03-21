@@ -1,14 +1,19 @@
 <template>
-  <MyHero />
+  <div>
+    <!-- <router-view></router-view> -->
+    <MyNavbar />
+  </div>
+  
 
 </template>
 
 <script>
- import MyHero from "./components/Hero.vue"
+import MyNavbar from "./components/Navbar/index.vue"
+//  import MyHero from "./components/Hero.vue"
 export default {
   name: 'App',
   components: {
-    MyHero
+    MyNavbar
   }
 }
 </script>

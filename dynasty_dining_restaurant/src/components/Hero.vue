@@ -27,12 +27,13 @@
 export default {
     name: "MyHero",
     components:{
-        MyNavbar,ourServices,
+        MyNavbar,
+        ourServices,
     }
 }
 </script>
 
-<style>
+<style scoped>
 body {
    
     margin: 0;
