@@ -38,9 +38,9 @@
         </div>
       </div>
     </nav> -->
-    <div class="container-xxl mycontainer p-0">
-            <nav class="navbar navbar-expand-lg navbar-dark  px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
+    <div class="container-xxl mycontainer p-0 ">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-darkpx-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0 ">
                     <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Restoran</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
@@ -49,9 +49,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
+
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
                         <a href="service.html" class="nav-item nav-link">Service</a>
+                        <router-link class="nav-item nav-link" to="/OurServices">OurServices</router-link>
                         <a href="menu.html" class="nav-item nav-link">Menu</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
@@ -76,9 +78,9 @@
   </script>
   
   <style scoped>
-  .mycontainer a{
-    color: red;
-    background-color: white;
+  .mycontainer {
+    color: orange;
+    
     
   }
  

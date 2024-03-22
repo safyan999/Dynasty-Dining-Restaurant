@@ -1,4 +1,12 @@
 <template>
+    <div class="hero container-fluid"> <!--hero secion -->
+        <h1> <b>About Us</b></h1>
+        <a href="#">HOME</a>/
+        <a href="#">PAGE</a>/
+        <a href="#">ABOUT</a>
+
+    </div>
+    <!-- main content  -->
 <div class="container">
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
         <h5 class="section-title ff-secondary text-center text-primary fw-normal">Our Services</h5>
@@ -74,13 +82,31 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.container-fluid{
+    background-image: url("../assets/bg-hero.jpg");
+    border: 1px solid green;
+    height: 400px;
+    width: 70%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.hero{
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+    
+}
 .container {
   
 
 }
 
 .myservice {
+
     margin: 10px;
 
 }
