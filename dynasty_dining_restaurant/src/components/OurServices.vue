@@ -1,13 +1,16 @@
 <template>
-    <div class="hero container-fluid"> <!--hero secion -->
+
+<div class=" container hero1 "> <!--hero secion -->
+    <div class="hero2">
         <h1> <b>About Us</b></h1>
         <a href="#">HOME</a>/
         <a href="#">PAGE</a>/
         <a href="#">ABOUT</a>
-
+    </div>
+         <div class="overlay"></div>
     </div>
     <!-- main content  -->
-<div class="container">
+<div class="container mainContent">
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
         <h5 class="section-title ff-secondary text-center text-primary fw-normal">Our Services</h5>
         <h1 class="mb-5">Explore Our Services</h1>
@@ -83,27 +86,32 @@ export default {
 </script>
 
 <style scoped>
-.container-fluid{
+.hero1{
     background-image: url("../assets/bg-hero.jpg");
     border: 1px solid green;
-    height: 400px;
-    width: 70%;
     text-align: center;
     vertical-align: middle;
     padding: 100px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* opacity: 30%; */
 
 }
+
 .hero{
     font-size: larger;
     color: white;
     font-weight: bold;
+    /* opacity: 30%; */
     
 }
-.container {
-  
+hero2{
+content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+} 
 
-}
 
 .myservice {
 
