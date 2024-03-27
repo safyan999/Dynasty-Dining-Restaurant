@@ -2,6 +2,7 @@
 import Hero from "./components/Hero.vue";
 import OurServices from "./components/OurServices.vue";
 import { createWebHistory, createRouter } from "vue-router";
+import Menu from "./components/Menu.vue";
 import About from "./components/About.vue"
 const routes=[
     {
@@ -20,6 +21,12 @@ const routes=[
         name: 'About',
         component:About,
         path:'/About',
+
+    },
+    {
+        name: 'Menu',
+        component:Menu,
+        path:'/Menu',
 
     }
 

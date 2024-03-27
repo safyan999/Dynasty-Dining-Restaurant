@@ -53,7 +53,7 @@
                       <router-link class="nav-item nav-link" to="/About">About</router-link>
                       
                         <router-link class="nav-item nav-link" to="/OurServices">OurServices</router-link>
-                        <a href="menu.html" class="nav-item nav-link">Menu</a>
+                        <router-link class="nav-item nav-link" to="/Menu">Menu</router-link>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0">
